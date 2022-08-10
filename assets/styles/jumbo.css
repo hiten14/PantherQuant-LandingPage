@@ -1,0 +1,254 @@
+.jumbo {
+  margin-top: 13.5rem;
+  position: relative;
+  margin-bottom: 5rem;
+}
+
+.jumbo__title {
+  font-family: 'Russo One';
+font-style: normal;
+font-weight: 400;
+font-size: 55px;
+line-height: 66px;
+color: #E9E9E9;
+
+text-shadow: 0px 7px 5px rgba(0, 0, 0, 0.85);
+  max-width: 43.313rem;
+}
+
+.jumbo--text-highlight {
+  color: #b824d0;
+}
+
+.jumbo__text {
+  box-shadow: 0px 0px 21px 8px #ffb800;
+  border-radius: 9px;
+  max-width: 42.688rem;
+  padding: 1rem;
+  line-height: 1.4;
+  margin-top: 3.75rem;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.sun {
+  border-radius: 9px;
+  max-width: 42.688rem;
+  box-shadow: 0px 0px 21px 8px green;
+  padding: 1rem;
+  line-height: 1.4;
+  margin-top: 3.75rem;
+  font-weight: 600;
+  font-size: 1.25rem;
+  animation-name: example;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+
+}
+.sun p{
+	border-radius: 9px;
+  max-width: 42.688rem;
+  padding: 1rem;
+  line-height: 1.4;
+  margin-top: 3.75rem;
+	box-shadow:  #ffb800;
+	color:white;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+
+
+color: #FFFFFF;
+
+	
+}
+
+.jumbo__eye {
+  position: absolute;
+  top: -5rem;
+  right: 3rem;
+  
+}
+
+
+.jumbo__btn {
+  background: #FFC700;
+  box-shadow: 0px 4.52065px 4.52065px rgba(0, 0, 0, 0.4);
+  border-radius: 0.447rem;
+  margin-top: 2.5rem;
+  width: 15.471rem;
+  height: 3.503rem;
+  border: none;
+  color: #fff;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 2.007rem;
+line-height: 2.438rem;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.43);
+
+}
+
+.jumbo__bg{
+  position: absolute;
+  top: -19rem;
+  z-index: -2;
+}
+
+.jumbo__bg1{
+  position: absolute;
+  top: -30rem;
+  z-index: -1;
+}
+
+.jumbo__bg2{
+  position: absolute;
+  top: -5rem;
+  z-index: -1;
+ 
+}
+
+@keyframes example {
+  0% {
+		box-shadow: 
+		
+		2px 2px 2px 2px purple;
+	}
+  5%{
+   box-shadow: 0px 0px 21px 8px blue;
+  }
+  
+  10%{
+   box-shadow: 0px 0px 21px 8px brown;
+  }
+  
+  15%{
+   box-shadow: 0px 0px 21px 8px pink;
+  }
+
+  20%{
+   box-shadow: 0px 0px 21px 8px grey;
+  }
+  25%{
+   box-shadow: 0px 0px 21px 8px indigo;
+  }
+  
+  30%{
+   box-shadow: 0px 0px 21px 8px violet;
+  }
+  
+  35%{
+   box-shadow: 0px 0px 21px 8px red;
+  }
+  
+  40%{
+   box-shadow: 0px 0px 21px 8px orange;
+  }
+  
+  45%{
+   box-shadow: 0px 0px 21px 8px amber;
+  }
+	
+	50%{
+		 
+			box-shadow: 0px 0px 21px 8px red;
+	}
+  
+  55%{
+   box-shadow: 0px 0px 21px 8px cornflowerblue;
+  }
+  
+  60%{
+   box-shadow: 0px 0px 21px 8px dimgrey;
+  }
+  
+  65%{
+   box-shadow: 0px 0px 21px 8px indianred;
+  }
+  
+  70%{
+   box-shadow: 0px 0px 21px 8px cornsilk;
+  }
+  
+  75%{
+   box-shadow: 0px 0px 21px 8px yellowgreen;
+  }
+  
+  80%{
+		
+		box-shadow: 0px 0px 21px 8px yellow;
+  }
+  
+  85%{
+   box-shadow: 0px 0px 21px 8px burlywood;
+  }
+  
+  90%{
+   box-shadow: 0px 0px 21px 8px blue;
+  }
+  
+  95%{
+   box-shadow: 0px 0px 21px 8px fuchsia;
+  }
+  
+	100% {
+		box-shadow: 0px 0px 21px 8px forestgreen;
+	}
+}
+
+
+
+
+
+@media only screen and (max-width: 700px){
+  .jumbo__title {
+  font-family: "Russo One", sans-serif;
+  font-weight: 400;
+font-size: 1.84rem;
+line-height: 2.188rem;
+  max-width: 23.313rem;
+}
+
+.jumbo__eye {
+  position: absolute;
+  top: -12rem;
+  width: 66%;
+  right: 2%;
+  
+}
+
+.sun {
+  border-radius: 9px;
+
+  padding: 1rem;
+  line-height: 1.4;
+  margin-top: 3.75rem;
+  font-weight: 400;
+font-size: 0.95rem;
+line-height: 1.188rem;
+  max-width: 25.313rem;
+	animation:
+		sunrise 7s infinite linear forwards,
+		rays 7s 7s infinite linear;
+}
+
+.sun p{
+	border-radius: 9px;
+  max-width: 42.688rem;
+  padding: 1rem;
+  line-height: 1.4;
+  margin-top: 3.75rem;
+  font-weight: 600;
+  font-size: 16vw;
+	box-shadow:  #ffb800;
+	color:forestgreen;
+	
+}
+}

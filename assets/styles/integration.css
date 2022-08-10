@@ -1,0 +1,27 @@
+.integration {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 13rem;
+}
+
+.integration__title {
+  font-family: "Russo One", sans-serif;
+  font-size: 3.438rem;
+  margin-top: 6.25rem;
+  position: relative;
+  max-width: 19.688rem;
+  line-height: normal;
+}
+
+.integration--text-highlight {
+  color: #b824d0;
+}
+
+.integration__platform {
+    width: 100%;
+    transform: scale(1.8);
+    position: relative;
+    z-index: -1;
+    margin-top: 7rem;
+    margin-left: -15rem;
+}

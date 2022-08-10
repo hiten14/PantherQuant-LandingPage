@@ -1,0 +1,119 @@
+.press{
+
+  margin-top: 10rem;
+}
+
+
+
+.press h1{
+    
+    font-family: 'Russo One';
+font-style: normal;
+font-weight: 400;
+font-size: 55px;
+line-height: 66px;
+text-align: center;
+
+color: #FFFFFF;
+
+   
+}
+
+.press h1 span{
+    color: #b824d0;
+}
+.photobanner img{
+    width: 200px;
+}
+/*keyframe animations*/
+.first {
+	-webkit-animation: bannermove 10s linear infinite;
+	   -moz-animation: bannermove 10s linear infinite;
+	    -ms-animation: bannermove 10s linear infinite;
+	     -o-animation: bannermove 10s linear infinite;
+	        animation: bannermove 10s linear infinite;
+          animation-direction: alternate;  
+}
+
+@keyframes bannermove {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -50vw;
+ }
+
+ 
+
+}
+
+
+
+@-moz-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -50vw;
+ }
+
+}
+
+@-webkit-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -50vw;
+ }
+
+}
+
+@-ms-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -50vw;
+ }
+
+}
+
+@-o-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -50vw;
+ }
+
+}
+
+.photobanner img {
+  padding: 30px;
+  width: 100px;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.photobanner img:hover {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+	cursor: pointer;
+
+	-webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+	box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+}
+
+
+
+
+
+

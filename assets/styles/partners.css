@@ -1,0 +1,82 @@
+
+.partnersection{
+   
+    /* Our Team */
+
+    margin-top: 5rem;
+    font-family: "inter", sans-serif;
+    
+display: grid;
+grid-template-columns: repeat(7, 1fr);
+
+
+
+}
+
+.partnersnrd:nth-child(odd){
+margin-top: 20rem;
+}
+
+.partnersection p{
+color: #fff;
+
+}
+
+.partner-image{
+
+left: 100px;
+}
+
+
+.partnersnrd{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+
+.partner_style{
+  
+color: #fff;
+
+font-family: 'Russo One';
+font-style: normal;
+font-weight: 400;
+font-size: 55px;
+line-height: 66px;
+text-align: center;
+
+color: #FFFFFF;
+
+grid-column: 1/-1;
+}
+.partner_style h1 span{
+  color: #b824d0;
+}
+
+
+img.button:hover ~ .text {
+  
+  transform: scale(1.1);
+  filter: grayscale(100%);
+}
+
+.team__box:hover svg rect{
+  stroke: grey;
+}
+
+.button{
+  transition: color 500ms ease-in;
+}
+
+
+.partner__div{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.text{
+  text-align: center;
+}

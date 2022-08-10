@@ -1,0 +1,118 @@
+.platform {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.platform__title {
+  font-family: 'Russo One';
+font-style: normal;
+font-weight: 400;
+font-size: 55px;
+line-height: 66px;
+text-align: left;
+
+color: #FFFFFF;
+
+text-shadow: 0px 7px 5px rgba(0, 0, 0, 0.85);
+}
+
+.platform--text-highlight {
+  color: #b824d0;
+}
+
+.platform__title-text {
+  
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #E9E5E5;
+
+
+
+  max-width: 35rem;
+  margin-top: 1rem;
+  line-height: 1.4;
+}
+
+.platform__box:nth-child(2) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10.688rem;
+    grid-column-gap: 4rem;
+    grid-row-gap: 3rem;
+}
+
+.platform__feature {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 1rem;
+    align-items: center;
+    max-width: 14rem;
+}
+
+.platform__feature-title {
+  font-family: 'Russo One';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #E9E5E5;
+    grid-column: 1 / 3;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.platform__feature-img {
+  grid-column: 3 / -1;
+  width: 3rem;
+  zoom: 1.5;
+  transition: all 0.7s ease-in-out;
+  /* margin-left: auto; */
+}
+
+.platform__feature-img:hover{
+transform: scale(1.1);
+
+}
+
+.platform__feature-text {
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #9e9999;
+
+    grid-column: 1 / -1;
+    line-height: 1.4;
+}
+
+.partner__div{
+  font-family: 'Russo One';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+@media screen and (max-width: 1280px) {
+  .platform {
+    grid-template-columns: 1fr;
+  }
+
+  .platform__box:nth-child(2) {
+    margin-left: 20vw;
+  }
+}

@@ -1,0 +1,49 @@
+.optimization {
+  margin-top: -40rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 40rem;
+
+  margin-bottom: 10rem;
+}
+
+.optimization__box:nth-child(1) {
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 17.1384px;
+line-height: 21px;
+
+color: #E9E5E5;
+
+  max-width: 31.25rem;
+  align-self: center;
+  
+}
+
+.optimization__title {
+  font-family: 'Russo One';
+font-style: normal;
+font-weight: 400;
+font-size: 54.45px;
+line-height: 66px;
+
+color: #FFFFFF;
+
+  max-width: 22.063rem;
+  margin-left: 12rem;
+}
+
+.optimization--text-highlight {
+  color: #b824d0;
+}
+
+.optimization__box:nth-child(2) {
+  position: relative;
+}
+
+.optimization__img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

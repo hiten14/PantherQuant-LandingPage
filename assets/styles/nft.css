@@ -1,0 +1,122 @@
+.nft {
+  position: relative;
+  margin-top: 4.125rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nft__nfts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  
+}
+
+.nft__nfts img:hover{
+  transition: transform 6.8s;
+  transform-style: preserve-3d;
+  transform: rotateY(180deg);
+}
+.nft__circuit1 {
+  position: absolute;
+  left: -2rem;
+  top: -8rem;
+  z-index: -1;
+  filter: grayscale(100%);
+}
+
+.nft__circuit2 {
+  position: absolute;
+  right: -2rem;
+  top: -8rem;
+  z-index: -1;
+  filter: grayscale(100%);
+}
+
+.nft__bg {
+  position: absolute;
+  right: 0;
+  top: -15rem;
+  z-index: -2;
+  filter: grayscale(100%);
+}
+
+.nft__title {
+  font-family: 'Russo One';
+font-style: normal;
+font-weight: 400;
+font-size: 55px;
+line-height: 66px;
+  max-width: 56.875rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.nft--text-highlight {
+    color: #b824d0;
+}
+
+.nft__text {
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+    max-width: 37.5rem;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+
+.flipspinner {
+  background-color: var(--spinner-color-1);
+  animation: flip 7s  infinite;
+}
+
+@keyframes flip {
+  0% { 
+    transform: rotatey(180deg); 
+      background-color: var(--spinner-color-2);
+  }
+  50% { 
+    transform: rotatey(180deg) ;
+  }
+}
+
+
+.flipspinner2 {
+  background-color: var(--spinner-color-1);
+  animation: flip2 7s  infinite;
+}
+
+@keyframes flip2 {
+  50% { 
+    transform: rotatey(180deg); 
+      background-color: var(--spinner-color-2);
+  }
+  100% { 
+    transform: rotatey(180deg) ;
+  }
+}
+
+
+
+
+.flipspinner3 {
+  background-color: var(--spinner-color-1);
+  animation: flip3 7s  infinite;
+}
+
+@keyframes flip3 {
+  
+  100% { 
+    transform: rotatey(180deg) ;
+  }
+}
+.lgNone{
+  display: none;
+}

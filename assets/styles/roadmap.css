@@ -1,0 +1,399 @@
+
+.roadmap__section{
+  margin-top: 10rem;
+}
+
+.roadmap__title {
+  
+font-family: 'Russo One';
+font-style: normal;
+font-weight: 400;
+font-size: 55px;
+line-height: 66px;
+text-align: left;
+
+color: #FFFFFF;
+  margin-bottom: -16rem;
+}
+
+.roadmap--text-highlight {
+  color: #b824d0;
+}
+
+
+
+.roadmaps{
+  position: relative;
+  margin-top: 5rem;
+  
+
+  
+}
+.roadmap{
+  /* Property 1=roadmap 1 */
+
+
+  position: absolute;
+  width: 1448px;
+  height: 1058px;
+  left: 750px;
+  top: 160px;
+
+}
+
+
+.roadmap_hide {
+  left: 800px;
+  top: 50px;
+  color:white;
+  position:absolute;
+  background:transparent;
+  visibility: hidden;
+  transition: all 0.9s ease-in-out;
+  
+  
+ 
+}
+
+  
+.roadmap:hover + .roadmap_hide {
+ transform: scale(1.1);
+  display: block;
+  opacity: 1;
+  visibility: visible;
+} 
+
+
+.roadmap1{
+  position: absolute;
+  width: 1448px;
+  height: 1058px;
+  left: 500px;
+  top: 200px;
+  
+}
+
+.roadmap1_hide {
+  left: 500px;
+  top: 100px;
+  color:white;
+  position:absolute;
+  background:transparent;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.9s ease-in-out;
+ 
+  
+  
+ 
+}
+
+  
+.roadmap1:hover + .roadmap1_hide {
+  transform: scale(1.1);
+  display: block;
+  opacity: 1;
+  visibility: visible;
+
+} 
+
+
+.roadmap2{
+  position: absolute;
+  
+  left: 580px;
+  top: 220px;
+}
+
+.roadmap2_hide {
+  left: 580px;
+  top: 120px;
+  color:white;
+  position:absolute;
+  background:transparent;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.9s ease-in-out;
+  
+  
+  
+ 
+}
+
+  
+.roadmap2:hover + .roadmap2_hide {
+  transform: scale(1.1);
+  display: block;
+  opacity: 1;
+  visibility: visible;
+
+} 
+
+.roadmap3{
+  position: absolute;
+
+  left: 280px;
+  top: 210px;
+}
+
+.roadmap3_hide {
+  left: 280px;
+  top: 110px;
+  color:white;
+  position:absolute;
+  background:transparent;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.9s ease-in-out;
+  
+
+  
+ 
+}
+
+
+.roadmap3__text{
+  width: 100%;
+  height: 10%;
+  font-size: 8px;
+  top: 0.8rem;
+  left: 0.9rem;
+  position:absolute;
+
+}
+
+  
+.roadmap3:hover + .roadmap3_hide {
+  transform: scale(1.1);
+  display: block;
+  opacity: 1;
+  visibility: visible;
+
+} 
+
+.roadmap4{
+  position: absolute;
+  
+  left: 470px;
+  top: 300px;
+}
+
+.roadmap4_hide {
+  left: 470px;
+  top: 200px;
+  color:white;
+  position:absolute;
+  background:transparent;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.9s ease-in-out;
+  
+  
+ 
+}
+
+  
+.roadmap4:hover + .roadmap4_hide {
+  transform: scale(1.1);
+  display: block;
+  opacity: 1;
+  visibility: visible;
+
+} 
+
+.roadmap5{
+  position: absolute;
+  
+  left: 200px;
+  top: 300px;
+}
+
+.roadmap5_hide {
+  left: 200px;
+  top: 200px;
+  color:white;
+  position:absolute;
+  background:transparent;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.9s ease-in-out;
+  
+  
+ 
+}
+
+.roadmap5__text{
+  font-family: 'Inter';
+font-style: normal;
+font-size: 14.1978px;
+line-height: 8px;
+color: #F2F2F2;
+  width: 100%;
+  height: 10%;
+  font-size: 8px;
+  top: 1rem;
+  left: 0.9rem;
+  position:absolute;
+}
+
+  
+.roadmap5:hover + .roadmap5_hide {
+  transform: scale(1.1);
+  display: block;
+  opacity: 1;
+  visibility: visible;
+
+} 
+
+
+.roadmap6{
+  position: absolute;
+  
+  left: 185px;
+  top: 400px;
+
+ 
+}
+
+.roadmap6_hide {
+  left: 185px;
+  top: 300px;
+  color:white;
+  position:absolute;
+  background:transparent;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.9s ease-in-out;
+  
+  
+ 
+}
+
+  
+.roadmap6:hover + .roadmap6_hide {
+  transform: scale(1.1);
+  display: block;
+  opacity: 1;
+  visibility: visible;
+
+} 
+.roadmap6__text{
+  font-family: 'Inter';
+font-style: normal;
+font-size: 14.1978px;
+line-height: 17px;
+color: #F2F2F2;
+  top: 3.5rem;
+  left: 2rem;
+  position:absolute;
+}
+
+.roadmap7{
+  position: absolute;
+  left: 650px;
+  top: 340px;
+}
+
+.roadmap7__text{
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 14.1978px;
+  line-height: 17px;
+  color: #F2F2F2;
+  top: 3.5rem;
+  left: 4rem;
+  position:absolute;
+}
+
+.roadmap7_hide {
+  left: 750px;
+  top: 240px;
+  color:white;
+  position:absolute;
+  background:transparent;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.9s ease-in-out;
+  
+  
+ 
+}
+
+  
+.roadmap7:hover + .roadmap7_hide {
+  transform: scale(1.1);
+  display: block;
+  opacity: 1;
+  visibility: visible;
+
+} 
+
+
+.roadmap8{
+  position: absolute;
+  
+  left: 910px;
+  top: 480px;
+ 
+}
+
+
+.roadmap8__text{
+  font-family: 'Inter';
+font-style: normal;
+font-size: 14.1978px;
+line-height: 17px;
+
+color: #F2F2F2;
+  top: 3.5rem;
+  left: 4.5rem;
+  position:absolute;
+}
+
+.roadmap8_hide {
+  left: 1010px;
+  top: 380px;
+  color:white;
+  position:absolute;
+  background:transparent;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.9s ease-in-out;
+  
+  
+ 
+}
+
+  
+.roadmap8:hover + .roadmap8_hide {
+  transform: scale(1.1);
+  display: block;
+  opacity: 1;
+  visibility: visible;
+
+} 
+.roadmapMobile{
+  background: linear-gradient(126.08deg, rgba(255, 255, 255, 0.3) 13.84%, rgba(255, 255, 255, 0.1) 74.14%);
+box-shadow: 0px 3.25757px 16.2878px 0.814392px rgba(0, 0, 0, 0.2);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 8px;
+}
+.roadmapMobile{
+  padding: 15px;
+}
+.roadmapMobile .divNumbers{
+margin-top: 12px;
+}
+.roadmap-1{
+  width: 70%;
+  margin-bottom: 25px;
+}
+.mr-left{
+  margin-left: auto;
+}
+@media only screen and (max-width: 700px){
+  .sm____none{
+    display: none;
+  }
+}

@@ -1,0 +1,156 @@
+.team {
+  margin-top: 3rem;
+}
+
+.team__title {
+  
+font-family: 'Russo One';
+font-style: normal;
+font-weight: 400;
+font-size: 55px;
+line-height: 66px;
+text-align: right;
+
+color: #FFFFFF;
+
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.team--text-highlight {
+  color: #b824d0;
+}
+
+.team__box {
+  display: grid;
+  place-content: center;
+  position: relative;
+  padding: 2rem;
+  width: 25rem;
+  margin-bottom: 5rem;
+}
+
+.team__left-bracket {
+  position: absolute;
+  top: -2rem;
+  left: 1rem;
+  z-index: -1;
+  transition: all 0.3s ease-in-out;
+}
+
+.team__right-bracket {
+  position: absolute;
+  top: 0rem;
+  right: 0rem;
+  z-index: -1;
+  transition: all 0.3s ease-in-out;
+}
+
+.team__role {
+  position: relative;
+  top: 2rem;
+  left: -4rem;
+  max-width: 7rem;
+  transition: all 0.3s ease-in-out;
+  font-family: 'Inter';
+font-style: normal;
+font-size: 16px;
+line-height: 19px;
+
+color: #E9E5E5;
+
+}
+
+.team__name {
+  position: relative;
+  top: -2.4rem;
+  right: -7rem;
+  transition: all 0.3s ease-in-out;
+  font-family: 'Inter';
+font-style: normal;
+font-size: 20px;
+line-height: 24px;
+
+color: #E9E5E5;
+
+}
+
+.team__teams {
+  display: flex;
+  flex-wrap:nowrap;
+}
+
+.team_img{
+  border-radius: 30px;
+}
+
+
+.team__teams img{
+
+  width: 150px;
+  height: 150px;
+  transition: all 0.3s ease;
+  border-radius: 30px;
+  
+  
+
+}
+
+.thumbnail{
+  width: 150px;
+  height: 150px;
+  transition: all 0.3s ease;
+
+}
+.team__box:hover .thumbnail {
+  transform: scale(1.1);
+  filter: grayscale(100%);
+
+}
+
+
+.team__box:hover .team__name {
+ 
+  right: -8rem;
+}
+
+
+
+.team__box:hover .team__role{
+  left: -5rem;
+}
+
+
+
+
+.team__box:hover .team__left-bracket{
+  top: -2rem;
+  left: -2rem;
+  
+}
+
+
+.team__box:hover .team__right-bracket{
+  top: 0rem;
+  right: -2rem;
+}
+
+.team__box:hover svg rect{
+  stroke: grey;
+}
+
+
+
+.team__box:hover .team__teams img {
+  transform: scale(1.1);
+  filter: grayscale(100%);
+
+}
+
+.team__box:hover .team__teams img{
+  transform: scale(1.1);
+  filter: grayscale(100%);
+}
+.intergrationMobile{
+  display: none;
+}
